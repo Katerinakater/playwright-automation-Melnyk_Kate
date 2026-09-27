@@ -26,8 +26,8 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-      baseURL: 'https://practicesoftwaretesting.com',
-testIdAttribute: 'data-test',
+    baseURL: 'https://practicesoftwaretesting.com',
+    testIdAttribute: 'data-test',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
@@ -74,7 +74,7 @@ testIdAttribute: 'data-test',
   /* Run your local dev server before starting the tests */
   // webServer: {
   //   command: 'npm run start',
-  //   url: 'https://practicesoftwaretesting.com',
+  //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
 });
