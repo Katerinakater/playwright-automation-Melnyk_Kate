@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Playwright Automation - Kateryna Melnyk",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  "test": "npx playwright test"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Katerinakater/playwright-automation-Melnyk_Kate.git"
